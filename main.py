@@ -1,13 +1,10 @@
-from datetime import date
-from typing import Text
+
 import streamlit as st
 import pickle
 import pandas as pd
-import datetime
-import joblib
 import numpy as np
+from typing import Text
 from PIL import Image
-from datetime import date
 from sklearn.linear_model import LinearRegression
 
 model= pickle.load(open(r"C:\Users\91961\surya.sav",'rb'))
