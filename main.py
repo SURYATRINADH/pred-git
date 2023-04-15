@@ -7,7 +7,7 @@ from PIL import Image
 
 model= pickle.load(open("surya.sav",'rb'))
 
-img1 = Image.open(r"C:\Users\91961\OneDrive\Pictures\Saved Pictures\ht.jpg")
+img1 = Image.open("ht.jpg")
 img1 = img1.resize((156,145))
 st.image(img1,use_column_width=False)
 
