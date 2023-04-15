@@ -5,7 +5,7 @@ import numpy as np
 from typing import Text
 from PIL import Image
 
-model= pickle.load(open(r"C:\Users\91961\surya.sav",'rb'))
+model= pickle.load(open("surya.sav",'rb'))
 
 img1 = Image.open(r"C:\Users\91961\OneDrive\Pictures\Saved Pictures\ht.jpg")
 img1 = img1.resize((156,145))
