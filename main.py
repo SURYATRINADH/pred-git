@@ -48,6 +48,6 @@ if submit_button:
     prediction = predict_price(data)
     st.subheader("Estimated Price")
     
-prediction_str = np.array2string(np.array([prediction]), formatter={'float_kind':lambda x: "%.2f" % x})
+#prediction_str = np.array2string(np.array([prediction]), formatter={'float_kind':lambda x: "%.2f" % x})
 
 st.write(f"${prediction:} hour")
