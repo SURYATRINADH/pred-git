@@ -3,10 +3,8 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
-import sklearn
 from typing import Text
 from PIL import Image
-from sklearn.linear_model import LinearRegression
 
 model= pickle.load(open(r"C:\Users\91961\surya.sav",'rb'))
 
